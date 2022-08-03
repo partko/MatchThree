@@ -1,0 +1,129 @@
+
+
+.open levels.db
+
+
+CREATE TABLE arcade (
+level INTEGER,
+ltype INTEGER,
+moves INTEGER,
+gtype INTEGER,
+goal1 INTEGER,
+goal2 INTEGER,
+goal3 INTEGER,
+boxes VARCHAR(71));
+
+.tables
+
+.schema arcade
+
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (1, 0, 12, 0, 450, 540, 620, '11000011 10000001 00000000 00000000 00000000 00000000 10000001 11000011');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (2, 0, 16, 0, 630, 750, 880, '00000000 00111100 01100110 01000010 01000010 01100110 00111100 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (3, 0, 18, 0, 720, 860, 1000, '00100100 00100100 11100111 00100100 00100100 11100111 00100100 00100100');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (4, 0, 20, 0, 810, 970, 1130, '11000011 11100111 01100110 00000000 00000000 01100110 11100111 11000011');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (5, 0, 16, 0, 610, 720, 840, '10000001 10000001 10000001 10000001 10000001 10000001 10000001 10000001');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (6, 0, 15, 0, 550, 660, 760, '00000000 00000000 00011000 00111100 00111100 00011000 00000000 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (7, 0, 18, 0, 730, 880, 1020, '11100011 11100011 11100000 00000000 00000000 00000111 11000111 11000111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (8, 0, 14, 0, 540, 650, 750, '00000000 01100110 01100110 00000000 00000000 01100110 01100110 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (9, 0, 21, 0, 870, 1030, 1200, '00000000 01100110 11111111 11111111 01111110 00111100 00011000 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (10, 0, 30, 0, 1210, 1440, 1680, '11111111 11000011 10100101 10011001 10011001 10100101 11000011 11111111');
+
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (11, 0, 16, 0, 630, 750, 880, '00000000 01111110 01000010 01000010 01000010 01000010 01111110 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (12, 0, 20, 0, 790, 940, 1090, '00011000 00011000 00011000 11100111 11100111 00011000 00011000 00011000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (13, 0, 12, 0, 450, 540, 620, '01000010 11000011 00000000 00000000 00000000 00000000 11000011 01000010');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (14, 0, 16, 0, 610, 720, 840, '00000000 01110000 01010000 01110000 00001110 00001010 00001110 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (15, 0, 24, 0, 930, 1120, 1300, '00000000 00000000 00000000 11111111 10000001 11111111 10000001 11111111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (16, 0, 16, 0, 610, 720, 840, '11111111 00000000 00000000 00000000 00000000 00000000 00000000 11111111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (17, 0, 17, 0, 650, 770, 900, '00011000 00110000 01100000 11000001 10000011 00000110 00001100 00011000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (18, 0, 26, 0, 1030, 1220, 1430, '00001111 00001111 00001111 00001111 11110000 11110000 11110000 11110000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (19, 0, 16, 0, 680, 810, 950, '11111111 10000001 10000001 10000001 10000001 10000001 10000001 11111111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (20, 0, 36, 0, 1450, 1720, 2000, '11011111 11011111 00000000 11011111 11011111 11011011 11011111 11011111');
+
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (21, 0, 16, 0, 660, 780, 910, '00000000 01111110 01000010 01011010 01011010 01000010 01111110 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (22, 0, 22, 0, 850, 1010, 1170, '11111111 10101010 00000000 00000000 00000000 00000000 01010101 11111111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (23, 0, 15, 0, 580, 690, 800, '00011000 00011000 00011000 00011000 00011000 00011000 00011000 00011000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (24, 0, 12, 0, 450, 540, 620, '10100000 00100000 11100000 00000000 00000000 00000111 00000100 00000101');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (25, 0, 25, 0, 900, 1070, 1240, '00000000 00011000 00011000 00111100 00111100 00011000 00011000 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (26, 0, 22, 0, 830, 990, 1160, '00000011 00000111 00001110 00011100 00111000 01110000 11100000 11000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (27, 0, 32, 0, 1270, 1510, 1760, '11111111 01111110 00111100 00011000 00011000 00111100 01111110 11111111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (28, 0, 16, 0, 610, 720, 840, '00011000 00011000 00000000 11000011 11000011 00000000 00011000 00011000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (29, 0, 14, 0, 560, 680, 790, '00000000 01100110 01000010 01011010 01011010 01000010 01100110 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (30, 0, 40, 0, 1600, 1920, 2230, '11111111 10000001 11111111 11111111 11111111 11111111 10000001 11111111');
+
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (31, 0, 19, 0, 750, 900, 1040, '10000001 11000011 10000001 11000011 10000001 11000011 10000001 11000011');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (32, 0, 24, 0, 840, 1010, 1170, '10101010 00000001 10000000 00000001 10000000 00000001 10000000 01010101');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (33, 0, 17, 0, 740, 880, 1030, '11000011 11000011 11000011 11000011 11000011 11000011 11000011 11000011');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (34, 0, 18, 0, 720, 860, 1000, '11100111 11000011 10000001 00000000 00000000 10000001 11000011 11100111');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (35, 0, 25, 0, 920, 1100, 1280, '00000000 00000000 00111100 11100111 11100111 00111100 00000000 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (36, 0, 14, 0, 510, 620, 710, '10011001 00000000 00000000 10000001 10000001 00000000 00000000 10011001');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (37, 0, 13, 0, 530, 640, 750, '00100100 00100100 00100100 00111100 00111100 00100100 00100100 00100100');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (38, 0, 12, 0, 480, 570, 660, '00000000 11111111 00000000 00000000 00000000 00000000 11111111 00000000');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (39, 0, 11, 0, 370, 440, 510, '10000001 00000000 00000000 00000000 00000000 00000000 00000000 10000001');
+INSERT INTO arcade (level, ltype, moves, gtype, goal1, goal2, goal3, boxes) VALUES (40, 0, 80, 0, 2560, 3040, 3520, '00000000 00000000 00000000 00000000 00000000 00000000 00000000 00000000');
+
+SELECT * FROM arcade;
+
+.mode line
+.mode column
+
+
+CREATE TABLE arcade_results (
+level INTEGER,
+record INTEGER,
+star INTEGER);
+
+.tables
+
+.schema arcade_results
+
+INSERT INTO arcade_results (level, record, star) VALUES (1, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (2, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (3, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (4, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (5, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (6, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (7, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (8, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (9, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (10, 0, 0);
+
+INSERT INTO arcade_results (level, record, star) VALUES (11, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (12, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (13, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (14, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (15, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (16, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (17, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (18, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (19, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (20, 0, 0);
+
+INSERT INTO arcade_results (level, record, star) VALUES (21, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (22, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (23, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (24, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (25, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (26, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (27, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (28, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (29, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (30, 0, 0);
+
+INSERT INTO arcade_results (level, record, star) VALUES (31, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (32, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (33, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (34, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (35, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (36, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (37, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (38, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (39, 0, 0);
+INSERT INTO arcade_results (level, record, star) VALUES (40, 0, 0);
+
+SELECT * FROM arcade_results;
+
+.mode line
+.mode column
+
+.qiut
+

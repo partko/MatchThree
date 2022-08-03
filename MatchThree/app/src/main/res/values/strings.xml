@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Match Three</string>
+    <string name="title_activity_arcade_levels">ArcadeLevels</string>
+    <string name="title_activity_time_levels">TimeLevels</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="about">Игра Match Three\nСоздано Владимиром Партко\nВерсия: 0.0.9\n<a href="https://github.com/partko">Мой GitHub</a></string>
+    <string name="back">Назад</string>
+    <string name="arcade_game">Аркадная Игра</string>
+    <string name="time_game">Игра на Время</string>
+    <string name="settings">Настройки</string>
+    <string name="remove_progress">Стереть прогресс</string>
+    <string name="switch_theme">Тёмная тема</string>
+</resources>
