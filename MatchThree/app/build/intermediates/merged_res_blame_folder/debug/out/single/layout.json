@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_arcade_levels.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_arcade_levels.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_time_game.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_time_game.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_settings.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_settings.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\content_scrolling.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\content_scrolling.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_arcade_game.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_arcade_game.xml"
+    },
+    {
+        "merged": "D:\\java\\startAndroidLessons\\MatchThree\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_arcade_game_old.xml",
+        "source": "D:\\java\\startAndroidLessons\\MatchThree\\app\\src\\main\\res\\layout\\activity_arcade_game_old.xml"
+    }
+]
